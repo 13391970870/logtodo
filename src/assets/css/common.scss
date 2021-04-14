@@ -1,0 +1,66 @@
+$background: #F0FFF0;
+$background1: #F5FFFA;
+
+html,
+body {
+  background: $background;
+}
+
+// 日志样式
+.tinymce-detail {
+  margin: 16px;
+
+  p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+
+  ul,
+  li {
+    list-style: unset;
+  }
+}
+
+// 通用按钮
+.z-btn {
+  width: 80px;
+  height: 35px;
+  display: block;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.z-btn-default {
+  background: #fff;
+  color: #333;
+  border: 1px solid #666;
+}
+
+
+//禁止选中文本
+.noselect {
+
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+
+  -webkit-user-select: none;
+  /* Chrome/Safari/Opera */
+
+  -khtml-user-select: none;
+  /* Konqueror */
+
+  -moz-user-select: none;
+  /* Firefox */
+
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+
+  user-select: none;
+  /* Non-prefixed version, currently
+  
+  not supported by any browser */
+
+}
